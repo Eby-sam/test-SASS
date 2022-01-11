@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "sass": "^1.47.0"
+  },
+  "name": "test-sass",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:dev": "node_modules/.bin/sass assets/sass/style.scss",
+    "sass:prod": "node_modules/.bin/sass --no-source-map assets/sass/style.scss",
+    "sass:watch" : "node_modules/.bin/sass --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eby-sam/test-SASS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eby-sam/test-SASS/issues"
+  },
+  "homepage": "https://github.com/Eby-sam/test-SASS#readme"
+}
