@@ -10,8 +10,17 @@
 </head>
 <body>
 
-    <div>
-        <h1>Hello World !</h1>
+    <div id="container">
+        <div id="cont1">
+            <h1>Hello World !</h1>
+        </div>
+        <div id="cont2">
+            <h2>I'm SamSam</h2>
+        </div>
+        <div id="cont3">
+            <h2>I'm Developpeur Front-End</h2>
+        </div>
+
     </div>
 
 </body>

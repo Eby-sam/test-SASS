@@ -9,9 +9,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:dev": "node_modules/.bin/sass assets/sass/style.scss",
-    "sass:prod": "node_modules/.bin/sass --no-source-map assets/sass/style.scss",
-    "sass:watch" : "node_modules/.bin/sass --watch"
+    "sass:dev": "sass assets/sass:assets/css",
+    "sass:prod": "sass --no-source-map assets/sass:assets/css",
+    "sass:watch": "sass --watch assets/sass:assets/css"
   },
   "repository": {
     "type": "git",
